@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.inner_main{
+    background-color: rgba(0, 255, 136, 0.822);
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    height:auto;
+}
+
+.mini-box{
+    /* background-color: aqua; */
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data-table{
+    margin: 0 auto;
+    height: auto;
+    width: inherit;
+}
+
+.data-heading  .data{
+    padding: 5px;
+}
